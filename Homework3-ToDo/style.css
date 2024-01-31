@@ -1,0 +1,175 @@
+.main-div {
+    width: 400px;
+    height: 650px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background: #ebeaea;
+}
+
+.todo-div {
+   
+    width: 327px;
+    height: 500px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+     bottom: 180px; 
+     box-sizing: border-box;
+    
+  
+    
+}
+
+.background-image {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.header-div {
+    width: 325px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+.light-dark {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+
+}
+
+.header-todo {
+    justify-content: center;
+    align-items: center;
+   
+    width: 109px;
+height: 20px;
+flex-shrink: 0;
+font-weight: 700;
+font-family: 'Josefin Sans';
+color: white;
+font-size: 19px;
+}
+
+
+
+
+
+
+.header-div p {
+    margin: 0;
+}
+.input {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border-radius: 5px;
+background: #FFF;
+border: 0px;
+}
+.tasks-div{
+    width: 324px;
+    border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+    background: #FFF;
+    overflow-y: auto;
+   
+    height: 368px;
+}
+.filter-div{
+    width: 324px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 20px 40px 72px;
+    grid-template-rows: 30px;
+   
+    justify-content: center;
+    gap: 20px;
+    color: #9495A5;
+font-family: "Josefin Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+align-items: center;
+letter-spacing: -0.194px;
+
+border-radius: 5px;
+background: #FFF;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .newdiv{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #555;
+  }
+  .deletebutton{
+    width: 18px;
+height: 19px;
+flex-shrink: 0;
+background-image: url(Screenshot_17.png);
+background-repeat: no-repeat;
+background-position: cover;
+border: 0px;
+
+
+  }
+  .items-left{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 304px;
+  }
+  .clear{
+    color: #9495A5;
+text-align: right;
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.167px;
+cursor: pointer;
+
+  }
+  .left{
+    color: gray;
+  }
+  input:focus {
+    outline: none;
+  }
